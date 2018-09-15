@@ -1,4 +1,15 @@
+var Greeter = React.createClass({
+    render: function() {
+        return (
+            <div>
+                <h1>Hello React component</h1>
+                <p>component test ok</p>
+            </div>
+        );
+    }
+});
+
 ReactDOM.render(
-    <h1>Hello React app.jsx</h1>,
+    <Greeter/>,
     document.getElementById('app')
 );
