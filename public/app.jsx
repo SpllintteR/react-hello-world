@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 var GreeterMessage = React.createClass({
     render: function() {
         var name = this.props.name;
